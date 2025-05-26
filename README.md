@@ -8,8 +8,8 @@
 
 ```bash
 # 1. 克隆專案
-git clone https://github.com/YOUR_USERNAME/quote-bot-word-stdio.git
-cd quote-bot-word-stdio
+git clone https://github.com/nccu231015/Invoice-Word-MCP.git
+cd Invoice-Word-MCP
 
 # 2. 安裝依賴
 pip install -r requirements.txt
@@ -32,20 +32,20 @@ pip install -r requirements.txt
   "mcpServers": {
     "quote-bot-word": {
       "command": "python",
-      "args": ["/path/to/your/quote-bot-word-stdio/mcp_server_stdio.py"],
-      "cwd": "/path/to/your/quote-bot-word-stdio"
+      "args": ["/path/to/your/Invoice-Word-MCP/mcp_server_stdio.py"],
+      "cwd": "/path/to/your/Invoice-Word-MCP"
     }
   }
 }
 ```
 
-**重要**：請將 `/path/to/your/quote-bot-word-stdio` 替換為您實際的專案路徑。
+**重要**：請將 `/path/to/your/Invoice-Word-MCP` 替換為您實際的專案路徑。
 
 ### 重啟 Cursor
 
 配置完成後，重啟 Cursor 即可使用。
 
-## 🤖 專業報價機器人模式（寫進 .cursorrules 文件）
+## 🤖 專業報價機器人模式
 
 ### 觸發條件
 當您在 Cursor 中提到以下關鍵詞時，會自動啟用專業報價機器人模式：
